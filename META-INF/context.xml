@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="false" privileged="true">
+    
+    <Resource
+      name="testDB"
+      auth="Container"
+      type="javax.sql.DataSource"
+      url="jdbc:h2:tcp://localhost/~/web_directory"
+      driverClassName="org.h2.Driver"
+      username="sa"
+      password=""
+      removeAbandoned="true"
+      removeAbandonedTimeout="300"
+      logAbandoned="true"
+      maxActive="100"
+      maxIdle="20"
+      /> 
+    
+</Context>
